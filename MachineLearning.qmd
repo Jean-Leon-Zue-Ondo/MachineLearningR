@@ -1,0 +1,48 @@
+---
+title: "Machine Learning avec R"
+author: "Jean Leon Zue Ondo"
+format: html
+editor: visual
+---
+
+# **Introduction**
+
+-   idyverse est une collection de packages R qui rendent la science des données plus rapide, facile et amusante.
+
+-   tidymodels est une collection de packages R pour la modélisation et l’analyse statistique.
+
+-   TensorFlow pour R et Torch pour R proposent des fonctionnalités de Machine Learning et de Deep Learning
+
+    ## **Analyse exploratoire des données**
+
+L'analyse exploratoire des données (EDA) est un processus itératif qui permet de résumer les principales caractéristiques des jeux de données, souvent à travers des visualisations et transformations. Les scientifiques des données utilisent divers outils, notamment le langage R et des packages spécifiques comme Tidyverse, qui incluent ggplot2, dplyr, et tibble, pour faciliter cette exploration.
+
+## **Visualiser les données à l’aide de ggplot2**
+
+Ggplot2 est un package R conçu pour la création de graphiques élégants pour l'analyse des données. Il offre une méthode flexible permettant de construire des graphiques par l'assemblage itératif de composants indépendants, rendant ggplot2 un outil très polyvalent et puissant pour la visualisation de données en R.
+
+## **Transformer des données à l’aide de dplyr**
+
+Dplyr est un package R qui propose une grammaire cohérente de manipulation de données, à travers un ensemble de verbes destinés à simplifier les tâches courantes de manipulation des données. Il permet de transformer les données en formats spécifiques, facilitant ainsi l'analyse et la visualisation avancées.
+
+## **Stocker des données à l’aide de trames de données et de tibbles**
+
+Les trames de données sont le format le plus courant pour stocker des données dans R, facilitant ainsi leur analyse. Elles sont comparables aux feuilles de calcul Excel, car elles organisent les données de manière similaire.
+
+![](images/clipboard-1513833717.png){fig-align="center"}
+
+```{r}
+1 + 1
+```
+
+## **Tester vos hypothèses**
+
+L’exploration et l’analyse des données est généralement un processus *itératif*, dans lequel les spécialistes des données analysent un échantillon de données et testent leurs hypothèses en effectuant les types de tâches suivants :
+
+-   **Nettoyer les données** pour gérer les erreurs, les valeurs manquantes et d’autres problèmes.
+
+-   **Appliquer des techniques statistiques** pour mieux comprendre les données et la manière dont l’échantillon peut être supposé représenter la population réelle de données, en tenant compte d’une variation aléatoire.
+
+-   **Visualiser les données** pour déterminer les relations entre les variables, et dans le cas d’un projet d’apprentissage automatique, identifier les *fonctionnalités* qui sont potentiellement prédictives de l’*étiquette*.
+
+-   **Réviser l’hypothèse** et répéter le processus.
